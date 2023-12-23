@@ -1,7 +1,5 @@
 plugins {
     id 'java'
-    id 'application'
-    id 'org.openjfx.javafxplugin' version '0.0.9'
 }
 
 group = 'org.mkocagoel'
@@ -19,8 +17,3 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-javafx {
-    version = "16"
-    modules = [ 'javafx.controls', 'javafx.fxml' ]
-}
-mainClassName = 'org.mkocagoel.MainApp'
