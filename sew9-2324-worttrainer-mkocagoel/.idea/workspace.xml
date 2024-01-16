@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff7d77b3-ab32-4f35-8a6a-afa746706e4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="ff7d77b3-ab32-4f35-8a6a-afa746706e4c" name="Changes" comment="idk what i am doing but git doesnt like me">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mkocagoel/GameController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mkocagoel/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mkocagoel/WordPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mkocagoel/WortList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mkocagoel/view/FXMLController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mkocagoel/view/scene.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mkocagoel/view/styles.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +50,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="sew9-2324-worttrainer-mkocagoel" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sew9-2324-worttrainer-mkocagoel" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -78,6 +97,7 @@
     &quot;Gradle.sew9-2324-worttrainer-mkocagoel [buildDependents].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.sew9-2324-worttrainer-mkocagoel [build].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.sew9-2324-worttrainer-mkocagoel [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.sew9-2324-worttrainer-mkocagoel [run].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -88,6 +108,10 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/home/mkocagoel/Documents/School-Local/sew9-2324-worttrainer-mkocagoel/sew9-2324-worttrainer-mkocagoel/src/main/java/org/mkocagoel/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -219,10 +243,27 @@
       <option name="presentableId" value="Default" />
       <updated>1703344688671</updated>
       <workItem from="1703344689726" duration="462000" />
+      <workItem from="1703348987638" duration="191000" />
+      <workItem from="1705324954681" duration="205000" />
+      <workItem from="1705396620096" duration="1092000" />
+      <workItem from="1705439927686" duration="25000" />
     </task>
+    <task id="LOCAL-00001" summary="idk what i am doing but git doesnt like me">
+      <option name="closed" value="true" />
+      <created>1703349033590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703349033590</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="idk what i am doing but git doesnt like me" />
+    <option name="LAST_COMMIT_MESSAGE" value="idk what i am doing but git doesnt like me" />
   </component>
 </project>
