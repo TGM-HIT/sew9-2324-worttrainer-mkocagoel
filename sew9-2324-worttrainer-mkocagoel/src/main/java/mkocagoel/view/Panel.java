@@ -16,7 +16,7 @@ public class Panel extends JPanel {
 
     /**
      * Konstruktor
-     * @param Controller
+     * @param controller
      * @throws MalformedURLException
      */
     public Panel(Controller controller) throws MalformedURLException {

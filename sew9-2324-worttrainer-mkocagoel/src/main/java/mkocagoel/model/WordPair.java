@@ -3,6 +3,10 @@ package mkocagoel.model;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+/**
+ * WordPair Klasse
+ * Verwaltet ein Wortpaar
+ */
 public class WordPair {
 
     private String word;

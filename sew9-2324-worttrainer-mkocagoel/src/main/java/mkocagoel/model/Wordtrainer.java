@@ -1,5 +1,9 @@
 package mkocagoel.model;
 
+/**
+ * Wordtrainer Klasse
+ * Verwaltet den Wordtrainer
+ */
 public class Wordtrainer {
     private WordList currentWordList;
     private int currentWordIndex;
@@ -49,5 +53,13 @@ public class Wordtrainer {
             guess = guess.toLowerCase();
         }
         return this.guess(guess);
+    }
+
+    public void setMissedpoints(int missedpoints) {
+        this.missedpoints = missedpoints;
+    }
+
+    public void setPoints(int points) {
+        this.points = points;
     }
 }

@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f57c2530-ac0e-4f9f-90b5-0b0b2b9abfaf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mkocagoel/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mkocagoel/model/WordList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mkocagoel/model/WordPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mkocagoel/model/Wordtrainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mkocagoel/view/Frame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mkocagoel/view/Panel.java" afterDir="false" />
+    <list default="true" id="f57c2530-ac0e-4f9f-90b5-0b0b2b9abfaf" name="Changes" comment="tried it with swing lol">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mkocagoel/model/persistence/JsonPersistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mkocagoel/model/persistence/Persistence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mkocagoel/GameController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mkocagoel/MainApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mkocagoel/WordPair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mkocagoel/WortList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mkocagoel/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mkocagoel/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mkocagoel/model/WordList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mkocagoel/model/WordList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mkocagoel/model/WordPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mkocagoel/model/WordPair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mkocagoel/model/Wordtrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mkocagoel/model/Wordtrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mkocagoel/view/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mkocagoel/view/Panel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,35 +54,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2b3OQtumuAjjGihDkzXbs23s3Li" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.sew9-2324-worttrainer-mkocagoel [:Controller.main()].executor": "Run",
-    "Gradle.sew9-2324-worttrainer-mkocagoel [:Main.main()].executor": "Run",
-    "Gradle.sew9-2324-worttrainer-mkocagoel [buildDependents].executor": "Run",
-    "Gradle.sew9-2324-worttrainer-mkocagoel [build].executor": "Run",
-    "Gradle.sew9-2324-worttrainer-mkocagoel [init].executor": "Run",
-    "Gradle.sew9-2324-worttrainer-mkocagoel [jar].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/mkocagoel/Documents/School-Local/sew9-2324-worttrainer-mkocagoel/sew9-2324-worttrainer-mkocagoel/src/main/java/mkocagoel/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.sew9-2324-worttrainer-mkocagoel [:Controller.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.sew9-2324-worttrainer-mkocagoel [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.sew9-2324-worttrainer-mkocagoel [buildDependents].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.sew9-2324-worttrainer-mkocagoel [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.sew9-2324-worttrainer-mkocagoel [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.sew9-2324-worttrainer-mkocagoel [init].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.sew9-2324-worttrainer-mkocagoel [jar].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/mkocagoel/Documents/School-Local/sew9-2324-worttrainer-mkocagoel/sew9-2324-worttrainer-mkocagoel/src/main/java/mkocagoel/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/mkocagoel/model" />
@@ -140,7 +138,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="sew9-2324-worttrainer-mkocagoel [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="sew9-2324-worttrainer-mkocagoel [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -151,7 +149,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="dependencies" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.sew9-2324-worttrainer-mkocagoel [dependencies]" />
         <item itemvalue="Application.Controller" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.sew9-2324-worttrainer-mkocagoel [buildDependents]" />
         <item itemvalue="Gradle.sew9-2324-worttrainer-mkocagoel [jar]" />
-        <item itemvalue="Gradle.sew9-2324-worttrainer-mkocagoel [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -209,11 +207,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705440285405</updated>
-      <workItem from="1705440286813" duration="4064000" />
+      <workItem from="1705440286813" duration="4154000" />
+      <workItem from="1705472723634" duration="1022000" />
+      <workItem from="1705475009034" duration="761000" />
     </task>
+    <task id="LOCAL-00001" summary="tried it with swing lol">
+      <option name="closed" value="true" />
+      <created>1705445512718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705445512718</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tried it with swing lol" />
+    <option name="LAST_COMMIT_MESSAGE" value="tried it with swing lol" />
   </component>
 </project>

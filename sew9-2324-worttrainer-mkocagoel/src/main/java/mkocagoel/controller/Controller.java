@@ -1,18 +1,20 @@
 package mkocagoel.controller;
 import mkocagoel.model.*;
 import mkocagoel.view.*;
+import mkocagoel.model.persistence.*;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.net.MalformedURLException;
-import java.net.URISyntaxException;
 
 public class Controller implements ActionListener {
     private Frame frame;
     private Panel panel;
     private Wordtrainer wordtrainer;
     private WordList wordList;
+    private Persistence ps= new JsonPersistence();
     private WordPair we1=new WordPair("Hund","https://www.pinclipart.com/picdir/middle/20-206356_wenn-hund-clipart.png");
     private WordPair we2=new WordPair("Maus","https://www.jr-farm.de/media/image/ee/44/22/Maus_23162751_M_frei_ohne_SchwanzDX94OBE1aiEDz_800x800.jpg");
     public Controller() throws MalformedURLException {
@@ -39,6 +41,11 @@ public class Controller implements ActionListener {
             case "reset":
                 this.wordtrainer=new Wordtrainer(this.wordList);
                 panel.update(0,0,true);
+                try {
+                    panel.bild(wordtrainer.getRandomWord().getUrl());
+                } catch (MalformedURLException ex) {
+                    throw new RuntimeException(ex);
+                }
                 break;
             case "plus":
                 String temp= JOptionPane.showInputDialog(null,"Bitte das Wort eingeben: ");
@@ -60,22 +67,22 @@ public class Controller implements ActionListener {
                     panel.update(wordtrainer.getPoints(),wordtrainer.getMissedPoints(),false);
                 }
                 break;
-            /*case "save":
+            case "save":
                 try {
-                    ps.speichern(wt);
+                    ps.save(wordtrainer);
                 } catch (IOException ev) {
                     ev.printStackTrace();
                 }
                 break;
             case "load":
                 try {
-                    wt=ps.laden();
-                    pl.update(wt.getRichtig(),wt.getAbgf(),true);
-                    pl.bild(wt.aktuell().getUrl());
+                    wordtrainer=ps.load();
+                    panel.update(wordtrainer.getPoints(),wordtrainer.getMissedPoints(),true);
+                    panel.bild(wordtrainer.getRandomWord().getUrl());
                 } catch (IOException ev) {
                     ev.printStackTrace();
                 }
-                break;*/
+                break;
         }
     }
 }

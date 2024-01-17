@@ -3,6 +3,10 @@ package mkocagoel.model;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * WordList Klasse
+ * Verwaltet eine Liste von WordPairs
+ */
 public class WordList {
     private Set<WordPair> wordPairs;
     public WordList(){
